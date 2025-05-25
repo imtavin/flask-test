@@ -7,7 +7,7 @@ def home():
     return "Olá, mundo! Flask na AWS!"
 
 @app.route("/transacao")
-def home():
+def transacao():
     return "Olá, mundo! Aqui será as transações!"
 
 if __name__ == "__main__":
